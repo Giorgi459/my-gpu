@@ -6,4 +6,5 @@ Global data memory has 256 cells and each cell stores an 8 bit value. Global pro
 Memory controllers within GPU (data and program) will act as intermediaries between global memory and cache/cores.
 Cache will store global memory temporarily for quick access. Cache might be left out initially.
 COMPUTE CORES:
+Each core has 4 ALUs so each core executes 4 threads simultaneously, meaning that there are 2 blocks. Block is a collection of threads.
 
